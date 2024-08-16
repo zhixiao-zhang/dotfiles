@@ -70,3 +70,9 @@ user-dirs.dirs
 user-dirs.locale
 webengineurlinterceptoradblockrc
 xsettingsd
+autostart/
+baloofilerc
+bluedevilglobalrc
+kded6rc
+kwinoutputconfig.json
+libaccounts-glib/
