@@ -19,16 +19,16 @@ config.font_rules = {
 }
 config.color_scheme = "Catppuccin Latte"
 
-if wezterm.target_triple == "aarch64_apple_darwin" then
-  config.font_size = 20.0
-else
+if wezterm.target_triple == "x86_64-unknown-linux-gnu" then
   config.font_size = 16.0
   config.enable_wayland = true
+else
+  config.font_size = 20.0
+  -- config.macos_window_background_blur = 20
 end 
 
 config.adjust_window_size_when_changing_font_size = false
 config.window_background_opacity = 0.8
-config.macos_window_background_blur = 20
 
 config.window_padding = {
   left = 0,
